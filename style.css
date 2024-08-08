@@ -1,3 +1,24 @@
-* {
-    background-color: darkslategrey;
+
+
+.main-image {
+    border-radius: 50%;
+}
+
+
+#bouncing-image {
+    position: relative;
+    width: 20%; /* Adjust the size of the image */
+    height: 20%;
+    border: 1px solid black; /* Optional: Add a border for visibility */
+}
+
+.invisible-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Inherit text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.name-properties {
+    margin-top: 5%;
+    color: yellowgreen;
 }
